@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="32876427-56e2-47ea-b42e-a1418e1b5f73" name="Changes" comment="refactor!(PasterBin): delete methods deleteBlob, getBlobContentAsText ,saveTextAndGenerateLink">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PasterBin/src/main/java/com/pastebin/pasterbin/controller/PasteBinController.java" beforeDir="false" afterPath="$PROJECT_DIR$/PasterBin/src/main/java/com/pastebin/pasterbin/controller/PasteBinController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PasterBin/src/main/java/com/pastebin/pasterbin/entity/Paste.java" beforeDir="false" afterPath="$PROJECT_DIR$/PasterBin/src/main/java/com/pastebin/pasterbin/entity/Paste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PasterBin/src/main/java/com/pastebin/pasterbin/service/PasteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/PasterBin/src/main/java/com/pastebin/pasterbin/service/PasteService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,7 +288,7 @@
       <workItem from="1739636484390" duration="44000" />
       <workItem from="1739636534226" duration="19000" />
       <workItem from="1739636558464" duration="1028000" />
-      <workItem from="1739653418961" duration="5004000" />
+      <workItem from="1739653418961" duration="6526000" />
     </task>
     <task id="LOCAL-00001" summary="refactor(PasterBin): migrate repository from SQL (PostgreSQL) to MongoDB">
       <option name="closed" value="true" />

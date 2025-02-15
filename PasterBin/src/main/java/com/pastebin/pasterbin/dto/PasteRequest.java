@@ -11,6 +11,8 @@ import java.util.Map;
 @Data
 public class PasteRequest {
 
+    private String title;
+
     private Instant createdAt;
 
     private List<Map<ContentType, String>> mediaList;

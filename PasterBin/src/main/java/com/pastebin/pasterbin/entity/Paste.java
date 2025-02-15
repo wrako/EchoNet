@@ -28,14 +28,6 @@ public class Paste {
     private boolean isEdited;
 
     private List<Map<ContentType, String>> mediaList;
-
-    public void setCreatedAt(LocalDateTime createdAt) {
-        this.createdAt = createdAt.toInstant(ZoneOffset.UTC);
-    }
-
-    public void setUpdatedAt(LocalDateTime updatedAt) {
-        this.updatedAt = updatedAt.toInstant(ZoneOffset.UTC);
-    }
 }
 
 
