@@ -69,6 +69,7 @@ public class BlobStorageService {
 
             ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
             blobClient.downloadStream(outputStream);
+//            String blobUrl = pasteRepository.findByTitle(blobName).getFirst().getBlobUrl();
 
             return outputStream.toString(StandardCharsets.UTF_8); // Укажите нужную кодировку, например, UTF-8
         } catch (Exception e) {

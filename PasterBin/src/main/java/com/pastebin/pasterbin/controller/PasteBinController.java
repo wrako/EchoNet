@@ -7,9 +7,9 @@ import com.pastebin.pasterbin.repo.PasteRepository;
 import com.pastebin.pasterbin.service.BlobStorageService;
 import com.pastebin.pasterbin.service.RedisService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
+import org.springframework.boot.autoconfigure.security.servlet.PathRequest;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.RestTemplate;
+import org.springframework.web.multipart.MultipartFile;
 
 
 @RestController
@@ -28,14 +28,12 @@ public class PasteBinController {
         this.pasteRepository = pasteRepository;
     }
 
-
     @PostMapping("/add/like")
     public void addLike(@RequestParam String fileName) {
         Paste paste = pasteRepository.findByTitle(fileName).getFirst();
         paste.setLikes(paste.getLikes() + 1);
         pasteRepository.save(paste);
     }
-
 
     @PostMapping("/add/view")
     public void addView(@RequestParam String fileName) {
@@ -44,66 +42,24 @@ public class PasteBinController {
         pasteRepository.save(paste);
     }
 
-//    @PostMapping("/save")
-//    public String saveText(@RequestBody PasteRequest request) {
-//
-//        RestTemplate restTemplate = new RestTemplate();
-//        String externalServiceUrl = "http://localhost:8081/gen";
-//
-//        ResponseEntity<String> response = restTemplate.getForEntity(externalServiceUrl, String.class);
-//
-//        String fileName;
-//        if (response.getStatusCode().is2xxSuccessful()) {
-//            fileName =  response.getBody(); // Возвращаем ответ от внешнего сервиса
-//        } else {
-//            throw new RuntimeException("Failed to send data to external service");
-//        }
-//        System.out.println("\n\n" +fileName+"\n\n");
-//        return blobStorageService.saveTextAndGenerateLink(fileName, request.getText(), request.getLifeTime());
-//    }
-
-
-    @GetMapping("/delete/{fileName}")
-    public void deleteBlob(@PathVariable String fileName) {
-        blobStorageService.deleteBlob(fileName);
-        redisService.delete(fileName);
-    }
-
-    @GetMapping("/{fileName}")
-    public String getBlobContent(@PathVariable String fileName) {
-        String answer = redisService.get(fileName);
-
-        if (answer == null) { // if cant find text in cache take it in blob storage
-            answer = blobStorageService.getBlobContentAsText(fileName);
-            redisService.save(fileName, answer);
-            return answer;
-        }
-        return answer;
-    }
     @GetMapping("/get/{postName}")
     public Paste getPost(@PathVariable String postName) {
         return pasteRepository.findByTitle(postName).getFirst();
     }
-//    @PostMapping("/save")
-//    public String saveText(@RequestBody PasteRequest request) {
-//
-//        RestTemplate restTemplate = new RestTemplate();
-//        String externalServiceUrl = "http://localhost:8081/gen";
-//
-//        ResponseEntity<String> response = restTemplate.getForEntity(externalServiceUrl, String.class);
-//
-//        String fileName;
-//        if (response.getStatusCode().is2xxSuccessful()) {
-//            fileName =  response.getBody(); // Возвращаем ответ от внешнего сервиса
-//        } else {
-//            throw new RuntimeException("Failed to send data to external service");
-//        }
-//        System.out.println("\n\n" +fileName+"\n\n");
-//        return blobStorageService.saveTextAndGenerateLink(fileName, request.getText(), request.getLifeTime());
-//    }
+
     @GetMapping("/get/link/{type}/{fileName}")
     public String getLinkOnContentByType(@PathVariable ContentType type, @PathVariable String fileName) {
         return blobStorageService.generateSasToken(fileName, type);
     }
+
+    @PostMapping("/save/post")
+    public String savePost(@RequestBody PasteRequest pasteRequest) {
+        Paste paste = new Paste();
+        paste.setMediaList(pasteRequest.getMediaList());
+        paste.setLikes(0); paste.setViews(0);
+        System.out.println("\n\n" +fileName+"\n\n");
+        return blobStorageService.saveTextAndGenerateLink(fileName, request.getText(), request.getLifeTime());
+    }
+
 
 }

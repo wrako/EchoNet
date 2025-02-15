@@ -2,6 +2,7 @@ package com.pastebin.pasterbin.dto;
 
 import com.pastebin.pasterbin.entity.ContentType;
 import lombok.Data;
+import lombok.Getter;
 
 import java.time.Instant;
 import java.util.List;
