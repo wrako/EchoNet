@@ -19,7 +19,6 @@ public class BlobStorageService {
 
     private final BlobServiceClient blobServiceClient;
 
-
     public BlobStorageService(BlobServiceClient blobServiceClient) {
         this.blobServiceClient = blobServiceClient;
     }
