@@ -1,0 +1,53 @@
+# Default configuration
+spring:
+  data:
+    redis:
+      host: redis-14951.c282.east-us-mz.azure.redns.redis-cloud.com
+      port: 14951
+      password: z1haaboz3d3Xrxvb1t6th1lEz9AjUs6z
+    mongodb:
+      host: localhost
+      port: 27017
+      database: metadata_db
+
+  cloud:
+    azure:
+      storage:
+        account-name: ${AZURE_STORAGE_ACCOUNT_NAME:YOUR_ACCOUNT_NAME}
+        account-key: ${AZURE_STORAGE_ACCOUNT_KEY:YOUR_ACCOUNT_KEY}
+        blob:
+          container-name: ${AZURE_STORAGE_CONTAINER_NAME:YOUR_CONTAINER_NAME}
+
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 20MB
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/metadata_db
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  jpa.show-sql: true
+  jpa.properties.hibernate.format_sql: true
+
+server:
+  port: 8080
+#---
+#
+## Instance 2 configuration
+#spring:
+#  config:
+#    activate:
+#      on-profile: instance2
+#
+#server:
+#  port: 8082

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="32876427-56e2-47ea-b42e-a1418e1b5f73" name="Changes" comment="feat(PasterBin): test commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Dockerfile" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;wrako&quot;
+  }
+}</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="e466330f-129a-4f14-ba42-3265985d0e87" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://wrako: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@github.com/wrako/PasteBin.git&quot;,
+    &quot;accountId&quot;: &quot;e466330f-129a-4f14-ba42-3265985d0e87&quot;
+  }
+}</component>
+  <component name="MavenRunner">
+    <option name="environmentProperties">
+      <map>
+        <entry key="AZURE_STORAGE_ACCOUNT_KEY" value="o5Qn72hjr/MQrF5d4y8jXYJqwn44FlUmI/Nk5dSECaLn/TX4wRzdUyQDLgHT3/jwGyTtf0IIMYV2+AStPqwAIw==" />
+        <entry key="AZURE_STORAGE_ACCOUNT_NAME" value="cyberwrako" />
+        <entry key="AZURE_STORAGE_CONTAINER_NAME" value="blob-storage" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2qj2nAqB83UB0Xe72DenFwBKRbx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.PasterBin/Dockerfile.executor": "Run",
+    "Docker.UrlGenerator/Dockerfile.executor": "Run",
+    "Docker.Urlgen/Dockerfile.executor": "Run",
+    "Docker.docker-compose.yml.urlgenerator-service: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "Maven.PasterBin [clean].executor": "Run",
+    "Maven.PasterBin [compile].executor": "Run",
+    "Maven.PasterBin [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor": "Run",
+    "Maven.PasterBin [org.apache.maven.plugins:maven-install-plugin:3.1.3:help].executor": "Run",
+    "Maven.PasterBin [org.apache.maven.plugins:maven-install-plugin:3.1.3:install-file].executor": "Run",
+    "Maven.PasterBin [org.apache.maven.plugins:maven-install-plugin:3.1.3:install].executor": "Run",
+    "Maven.PasterBin [package].executor": "Run",
+    "Maven.PasterBin [validate].executor": "Run",
+    "Maven.UrlGenerator [clean].executor": "Run",
+    "Maven.UrlGenerator [compile].executor": "Run",
+    "Maven.UrlGenerator [install].executor": "Run",
+    "Maven.UrlGenerator [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.PasteBinApplication.executor": "Run",
+    "Spring Boot.PasterBinApplication (1).executor": "Run",
+    "Spring Boot.PasterBinApplication.executor": "Run",
+    "Spring Boot.UrlGeneratorApplication.executor": "Run",
+    "Spring Boot.UserServiceApplication.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/reyand/IdeaProjects/EchoNet",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo",
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.pastebin.pastebin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/UrlGenerator/src/main/java/com/pastebin/urlgenerator" />
+      <recent name="$PROJECT_DIR$/UrlGenerator/src/main/resources" />
+      <recent name="$PROJECT_DIR$/PasterBin/src/main/java/com/pastebin/pasterbin" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.pastebin.pastebin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PasterBinApplication">
+    <configuration name="PasterBinApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="inst " />
+      <envs>
+        <env name="AZURE_STORAGE_ACCOUNT_KEY" value="o5Qn72hjr/MQrF5d4y8jXYJqwn44FlUmI/Nk5dSECaLn/TX4wRzdUyQDLgHT3/jwGyTtf0IIMYV2+AStPqwAIw==" />
+        <env name="AZURE_STORAGE_CONTAINER_NAME" value="blob-storage" />
+        <env name="AZURE_STORAGE_ACCOUNT_NAME" value="cyberwrako" />
+      </envs>
+      <module name="PasterBin" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8082 --spring.profiles.active=inst " />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pastebin.pasterbin.PasterBinApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasterBinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="prod" />
+      <envs>
+        <env name="AZURE_STORAGE_ACCOUNT_KEY" value="o5Qn72hjr/MQrF5d4y8jXYJqwn44FlUmI/Nk5dSECaLn/TX4wRzdUyQDLgHT3/jwGyTtf0IIMYV2+AStPqwAIw==" />
+        <env name="AZURE_STORAGE_CONTAINER_NAME" value="blob-storage" />
+        <env name="AZURE_STORAGE_ACCOUNT_NAME" value="cyberwrako" />
+      </envs>
+      <module name="PasterBin" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8080 --spring.profiles.active=prod " />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pastebin.pasterbin.PasterBinApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UrlGeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="UrlGenerator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pastebin.urlgenerator.UrlGeneratorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pastebin.userservice.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasterBin/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="PasterBin/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.PasterBinApplication (1)" />
+      <item itemvalue="Spring Boot.PasterBinApplication" />
+      <item itemvalue="Spring Boot.UrlGeneratorApplication" />
+      <item itemvalue="Spring Boot.UserServiceApplication" />
+      <item itemvalue="Docker.PasterBin/Dockerfile" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.PasterBin/Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32876427-56e2-47ea-b42e-a1418e1b5f73" name="Changes" comment="" />
+      <created>1735161832404</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735161832404</updated>
+      <workItem from="1735161833341" duration="41197000" />
+      <workItem from="1735399033108" duration="22520000" />
+      <workItem from="1735471409064" duration="9759000" />
+      <workItem from="1735517222618" duration="41087000" />
+      <workItem from="1735645894014" duration="3898000" />
+      <workItem from="1735727141098" duration="7660000" />
+      <workItem from="1735745498086" duration="20540000" />
+      <workItem from="1735834240611" duration="2192000" />
+      <workItem from="1736961724953" duration="963000" />
+      <workItem from="1737124129768" duration="15295000" />
+      <workItem from="1737159880534" duration="15893000" />
+      <workItem from="1737294316222" duration="15716000" />
+      <workItem from="1737387647913" duration="14299000" />
+      <workItem from="1737421440870" duration="20591000" />
+      <workItem from="1737477620876" duration="18064000" />
+      <workItem from="1737650741946" duration="4054000" />
+      <workItem from="1737732235066" duration="29426000" />
+      <workItem from="1737826279733" duration="9674000" />
+      <workItem from="1737995451453" duration="608000" />
+      <workItem from="1738024971474" duration="3152000" />
+      <workItem from="1738266237224" duration="5708000" />
+      <workItem from="1738273839156" duration="43000" />
+      <workItem from="1738273887414" duration="68000" />
+      <workItem from="1738273961542" duration="1250000" />
+      <workItem from="1738275543567" duration="133000" />
+      <workItem from="1738275683278" duration="33000" />
+      <workItem from="1738275720648" duration="425000" />
+      <workItem from="1738276151956" duration="3243000" />
+      <workItem from="1738279404421" duration="1643000" />
+      <workItem from="1738281751147" duration="844000" />
+      <workItem from="1738282606426" duration="3330000" />
+      <workItem from="1738285944693" duration="80000" />
+      <workItem from="1738286031190" duration="4687000" />
+      <workItem from="1738457740774" duration="6047000" />
+      <workItem from="1738517712000" duration="2000" />
+      <workItem from="1738527478784" duration="6504000" />
+      <workItem from="1738597828693" duration="6352000" />
+      <workItem from="1738695549418" duration="23206000" />
+      <workItem from="1738773003809" duration="10535000" />
+      <workItem from="1738846641837" duration="14147000" />
+      <workItem from="1738887061664" duration="20754000" />
+      <workItem from="1738969081294" duration="10718000" />
+      <workItem from="1739140761420" duration="4831000" />
+      <workItem from="1739189397317" duration="5796000" />
+      <workItem from="1739224830694" duration="13295000" />
+      <workItem from="1739285734481" duration="18222000" />
+      <workItem from="1739570657607" duration="5126000" />
+      <workItem from="1739578824262" duration="2153000" />
+      <workItem from="1739582576292" duration="592000" />
+      <workItem from="1739623779790" duration="3559000" />
+      <workItem from="1739628607081" duration="113000" />
+      <workItem from="1739628726388" duration="4056000" />
+      <workItem from="1739635563735" duration="64000" />
+      <workItem from="1739635634258" duration="74000" />
+      <workItem from="1739635716516" duration="760000" />
+      <workItem from="1739636484390" duration="44000" />
+      <workItem from="1739636534226" duration="19000" />
+    </task>
+    <task id="LOCAL-00001" summary="refactor(PasterBin): migrate repository from SQL (PostgreSQL) to MongoDB">
+      <option name="closed" value="true" />
+      <created>1738702955425</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738702955425</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix(PasterBin): ensure lifeTime is stored with correct timezone">
+      <option name="closed" value="true" />
+      <created>1738708915693</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738708915693</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refactor(PasterBin): remove unused imports">
+      <option name="closed" value="true" />
+      <created>1738709012558</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738709012558</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat(PasterBin): add new fields to Paste entity">
+      <option name="closed" value="true" />
+      <created>1738779338627</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738779338627</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat(PasterBin): add new methods for increase views and likes">
+      <option name="closed" value="true" />
+      <created>1738873345747</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738873345747</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat(PasterBin): test commit">
+      <option name="closed" value="true" />
+      <created>1738873826329</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738873826329</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat(PasterBin): test commit">
+      <option name="closed" value="true" />
+      <created>1739635760106</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739635760106</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat(PasterBin): test commit">
+      <option name="closed" value="true" />
+      <created>1739635985789</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739635985789</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Update README.md" />
+    <MESSAGE value="refactor(PasterBin): migrate repository from SQL (PostgreSQL) to MongoDB" />
+    <MESSAGE value="fix(PasterBin): ensure lifeTime is stored with correct timezone" />
+    <MESSAGE value="refactor(PasterBin): remove unused imports" />
+    <MESSAGE value="feat(PasterBin): add new fields to Paste entity" />
+    <MESSAGE value="feat(PasterBin): add new methods for increase views and likes" />
+    <MESSAGE value="feat(PasterBin): test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(PasterBin): test commit" />
+  </component>
+</project>

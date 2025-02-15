@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="PasterBin:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/PasterBin_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="PasterBin/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="PasterBin" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

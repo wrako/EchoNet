@@ -1,0 +1,25 @@
+spring:
+
+  data:
+    redis:
+      host: redis-14951.c282.east-us-mz.azure.redns.redis-cloud.com
+      port: 14951
+      password: z1haaboz3d3Xrxvb1t6th1lEz9AjUs6z # ???? ?????? ?? ?????, ??????? ??????
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/url_db
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  jpa.show-sql: true
+  jpa.properties.hibernate.format_sql: true
+server:
+  port: 8081

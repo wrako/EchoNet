@@ -1,0 +1,52 @@
+version: "3.8"
+
+services:
+  # PostgreSQL service for user-service
+  postgres-metadata:
+    image: postgres:14
+    environment:
+      POSTGRES_DB: metadata_db       # Database for user-service
+      POSTGRES_USER: postgres    # Username for the database
+      POSTGRES_PASSWORD: postgres # Password for the database
+    ports:
+      - "5434:5432"  # Port mapping for external access
+
+  postgres-url:
+    image: postgres:14
+    environment:
+      POSTGRES_DB: url_db       # Database for user-service
+      POSTGRES_USER: postgres    # Username for the database
+      POSTGRES_PASSWORD: postgres # Password for the database
+    ports:
+      - "5435:5432"  # Port mapping for external access
+
+
+  # User-service
+  pastebin-service:
+    image: pastebin-service:latest
+    build:
+      context: ./PasterBin
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres-metadata:5432/metadata_db
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: postgres
+      AZURE_STORAGE_CONTAINER_NAME: ${AZURE_STORAGE_CONTAINER_NAME}
+      AZURE_STORAGE_ACCOUNT_KEY: ${AZURE_STORAGE_ACCOUNT_KEY}
+      AZURE_STORAGE_ACCOUNT_NAME: ${AZURE_STORAGE_ACCOUNT_NAME}
+    depends_on:
+      - postgres-metadata
+    ports:
+      - "8080:8080"
+
+  url-service:
+    image: url-service:latest
+    build:
+      context: ./UrlGenerator
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres-url:5432/url_db
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: postgres
+    depends_on:
+      - postgres-url
+    ports:
+      - "8081:8081"
