@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32876427-56e2-47ea-b42e-a1418e1b5f73" name="Changes" comment="feat(PasterBin): test commit">
+    <list default="true" id="32876427-56e2-47ea-b42e-a1418e1b5f73" name="Changes" comment="refactor!(PasterBin): delete methods deleteBlob, getBlobContentAsText ,saveTextAndGenerateLink">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PasterBin/src/main/java/com/pastebin/pasterbin/controller/PasteBinController.java" beforeDir="false" afterPath="$PROJECT_DIR$/PasterBin/src/main/java/com/pastebin/pasterbin/controller/PasteBinController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PasterBin/src/main/java/com/pastebin/pasterbin/dto/PasteRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/PasterBin/src/main/java/com/pastebin/pasterbin/dto/PasteRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PasterBin/src/main/java/com/pastebin/pasterbin/service/BlobStorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/PasterBin/src/main/java/com/pastebin/pasterbin/service/BlobStorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +286,7 @@
       <workItem from="1739636484390" duration="44000" />
       <workItem from="1739636534226" duration="19000" />
       <workItem from="1739636558464" duration="1028000" />
-      <workItem from="1739653418961" duration="4678000" />
+      <workItem from="1739653418961" duration="5004000" />
     </task>
     <task id="LOCAL-00001" summary="refactor(PasterBin): migrate repository from SQL (PostgreSQL) to MongoDB">
       <option name="closed" value="true" />
@@ -354,7 +352,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739635985789</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="refactor!(PasterBin): delete methods deleteBlob, getBlobContentAsText ,saveTextAndGenerateLink">
+      <option name="closed" value="true" />
+      <created>1739658259694</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739658259694</updated>
+    </task>
+    <task id="LOCAL-00010" summary="refactor!(PasterBin): delete methods deleteBlob, getBlobContentAsText ,saveTextAndGenerateLink">
+      <option name="closed" value="true" />
+      <created>1739658331790</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739658331790</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,6 +385,7 @@
     <MESSAGE value="feat(PasterBin): add new fields to Paste entity" />
     <MESSAGE value="feat(PasterBin): add new methods for increase views and likes" />
     <MESSAGE value="feat(PasterBin): test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(PasterBin): test commit" />
+    <MESSAGE value="refactor!(PasterBin): delete methods deleteBlob, getBlobContentAsText ,saveTextAndGenerateLink" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor!(PasterBin): delete methods deleteBlob, getBlobContentAsText ,saveTextAndGenerateLink" />
   </component>
 </project>
